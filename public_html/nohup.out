@@ -1,0 +1,34 @@
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/var/www/domains/oxens.ezxdemo.com/public_html/server'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /var/www/domains/oxens.ezxdemo.com/public_html/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/var/www/domains/oxens.ezxdemo.com/public_html/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/www/domains/.npm/_logs/2023-05-26T06_05_43_009Z-debug-0.log
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/var/www/domains/oxens.ezxdemo.com/public_html/server'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
